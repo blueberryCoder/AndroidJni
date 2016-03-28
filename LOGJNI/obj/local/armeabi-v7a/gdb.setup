@@ -1,0 +1,4 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory /home/blueberry/program/android-ndk-r10/platforms/android-L/arch-arm/usr/include jni /home/blueberry/program/android-ndk-r10/sources/cxx-stl/system
+file ./obj/local/armeabi-v7a/app_process
+target remote :5039
