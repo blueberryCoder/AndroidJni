@@ -5,6 +5,7 @@ obj/local/x86/objs-debug/Echo/Echo.o: jni/Echo.cpp \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/android/api-level.h \
  jni/com_apress_echo_EchoServerActivity.h \
  jni/com_apress_echo_EchoClientActivity.h \
+ jni/com_apress_echo_LocalEchoActivity.h \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/stdio.h \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/types.h \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/stdint.h \
@@ -66,7 +67,20 @@ obj/local/x86/objs-debug/Echo/Echo.o: jni/Echo.cpp \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/asm-generic/siginfo.h \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/sysconf.h \
  D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/capability.h \
- D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/pathconf.h
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/pathconf.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/stdlib.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/alloca.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/strings.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/memory.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/wait.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/resource.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/resource.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/asm/resource.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/asm-generic/resource.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/wait.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/un.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/un.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/android/log.h
 
 D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/jni.h:
 
@@ -79,6 +93,8 @@ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/android/api-level.
 jni/com_apress_echo_EchoServerActivity.h:
 
 jni/com_apress_echo_EchoClientActivity.h:
+
+jni/com_apress_echo_LocalEchoActivity.h:
 
 D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/stdio.h:
 
@@ -203,3 +219,29 @@ D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/sysconf.h:
 D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/capability.h:
 
 D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/pathconf.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/stdlib.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/alloca.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/strings.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/memory.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/wait.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/resource.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/resource.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/asm/resource.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/asm-generic/resource.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/wait.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/sys/un.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/linux/un.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-x86/usr/include/android/log.h:

@@ -33,6 +33,7 @@ public class EchoClientActivity extends AbstractEchoActivity{
 	
 	
 	private native void nativeStartTcpClient(String ip,int port,String message) throws Exception ;
+	private native void nativeStartUdpClient(String ip,int port,String message) throws Exception ;
 	
 	private class ClientTask extends AbstactEchoTast{
 		private final int port ;
@@ -48,7 +49,8 @@ public class EchoClientActivity extends AbstractEchoActivity{
 		protected void onBackground() {
 			logMessage("Starting client.");
 			try{
-				nativeStartTcpClient(ip, port, message);
+//				nativeStartTcpClient(ip, port, message);
+				nativeStartUdpClient(ip, port, message);
 			}catch(Throwable e){
 				logMessage(e.getMessage());
 			}

@@ -14,7 +14,7 @@ public abstract class AbstractEchoActivity extends Activity implements OnClickLi
 	
 	private static final String TAG="AbstractEchoActivity";
 	
-	private EditText etPort;
+	protected EditText etPort;
 	private Button btnStart;
 	private ScrollView logScrollView;
 	private TextView tvLog;
