@@ -2,17 +2,15 @@ package com.apress.aviplayer;
 
 import java.io.File;
 
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioGroup;
 
 public class MainActivity extends Activity implements OnClickListener {
@@ -20,6 +18,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	private EditText etFileName ;
 	private RadioGroup rgPlayer;
 	private Button btnPlayer;
+	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +35,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		switch (v.getId()) {
 		case R.id.btn_player:
 			onPlayButtonClick();
+//		throw	new NullPointerException("test");
 			break;
 
 		default:
@@ -55,6 +55,12 @@ public class MainActivity extends Activity implements OnClickListener {
 		case R.id.bitmap_player_radio:
 			intent = new Intent(this,BitmapPlayerActivity.class);
 			break ;
+		case R.id.open_gl_player_radio:
+			intent = new Intent(this,OpenGLPlayerActivity.class);
+			break;
+		case R.id.native_window_player_radio:
+			intent = new Intent(this,NativeWindowPlayerActivity.class);
+			break;
 		default:
 //			throw new UnsupportedOperationException("radioId=" +radioId);
 		}

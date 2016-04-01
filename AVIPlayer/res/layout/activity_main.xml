@@ -10,7 +10,7 @@
 	    android:layout_height="wrap_content"
 	    android:ems="10"
 	    android:hint="输入abi文件名"
-	    android:text="test.avi"
+	    android:text="galleon.avi"
 	    />
 	
 	<RadioGroup 
@@ -21,8 +21,20 @@
 	    <RadioButton android:id="@+id/bitmap_player_radio"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-	        android:checked="true"
+	     
 	        android:text="bitmap_player"
+	        />
+	    <RadioButton android:id="@+id/open_gl_player_radio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="open_gl_player"
+	           android:checked="true"
+	        />
+	    <RadioButton android:id="@+id/native_window_player_radio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="native_window"
+	           android:checked="true"
 	        />
 	    
 	</RadioGroup>
