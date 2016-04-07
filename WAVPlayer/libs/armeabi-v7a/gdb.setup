@@ -1,0 +1,2 @@
+set solib-search-path ./obj/local/armeabi-v7a
+directory D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include D:/android-ndk-r10b/sources/transcode-1.1.7/avilib D:/android-ndk-r10b/sources/cxx-stl/system/include jni
